@@ -1,0 +1,59 @@
+/* #responseCard__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    background-color: #FFF;
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    padding: 20px ;
+    margin: 0 auto;
+    margin-top: calc(98vh - 400px - ((100vh - 400px )/2));
+   
+} */
+
+#resultImage{
+    width: 60%;
+    border-radius: 15px;
+}
+
+#check {
+    width: 50px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 45px;
+    color: #5e5a5a;
+
+    padding-right: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+input[type="submit"] {
+    margin-left: -50px;
+    font-size: 18px;
+    height: 35px;
+    font-weight: 500;
+    width: 100px;
+    border:none;
+    border-radius: 10px;
+    background-color: #2F80ED;
+    color: white;
+}
+
+.submit__button{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.responsiveCard__input {
+    position: relative;
+}

@@ -1,0 +1,14 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50vw);
+    transform: translate(-50%);
+    color: #828282;
+    font-size: 14px;
+}
+
